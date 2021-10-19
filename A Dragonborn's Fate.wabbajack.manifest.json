@@ -1,0 +1,1931 @@
+{
+  "$type": "Manifest, Wabbajack.Lib",
+  "Name": "A Dragonborn's Fate",
+  "Version": "0.0.1",
+  "Author": "Qolore & TDarkShadow",
+  "Description": "A Dragonborn's Fate is a lite modlist that tries to stay as close as possible to vanilla, with some bugfixes, and add in some quality of life features without being intrusive. This modlist makes use of various mods made by Simon Magus, also known as SimonRim.",
+  "GameType": "SkyrimSpecialEdition",
+  "GameName": "SkyrimSpecialEdition",
+  "ModManager": 0,
+  "ModManagerName": "MO2",
+  "DownloadSize": 528195087,
+  "InstallSize": 1164109030,
+  "IsNSFW": false,
+  "Archives": [
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "PfX6zen7m2M=",
+      "Meta": null,
+      "Name": "Mod.Organizer-2.4.2.7z",
+      "Size": 89503525,
+      "State": {
+        "$type": "HttpDownloader, Wabbajack.Lib",
+        "Url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2/Mod.Organizer-2.4.2.7z",
+        "Headers": [],
+        "PrimaryKeyString": "HTTPDownloader+State|https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2/Mod.Organizer-2.4.2.7z"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "rQiGSRx2WrY=",
+      "Meta": null,
+      "Name": "(Part 2) Engine Fixes - skse64 Preloader and TBB Lib-17230-2020-3-1611367474.7z",
+      "Size": 206648,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "SSE Engine Fixes (skse64 plugin)",
+        "Author": "aers - Nukem - Ryan",
+        "Version": "2020.3.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/17230/17230-1526195370-298143229.png",
+        "IsNSFW": false,
+        "Description": "skse64 plugin to fix various issues with the Skyrim Special Edition engine.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 17230,
+        "FileID": 181171,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|17230|181171"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "B0H61OxirmU=",
+      "Meta": null,
+      "Name": "skse64_2_00_19.7z",
+      "Size": 922047,
+      "State": {
+        "$type": "HttpDownloader, Wabbajack.Lib",
+        "Url": "https://skse.silverlock.org/beta/skse64_2_00_19.7z",
+        "Headers": [],
+        "PrimaryKeyString": "HTTPDownloader+State|https://skse.silverlock.org/beta/skse64_2_00_19.7z"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "3srYM3m5JOY=",
+      "Meta": null,
+      "Name": "NetScriptFramework SkyrimSE v17-21294-17-1631362586.zip",
+      "Size": 43237980,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": ".NET Script Framework",
+        "Author": "meh321",
+        "Version": "17.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/21294/21294-1542452370-100327648.png",
+        "IsNSFW": false,
+        "Description": "Framework for memory editing, native code hooking and writing DLL plugins in any .NET language.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 21294,
+        "FileID": 227609,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|21294|227609"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "Ptz8o/mEjFQ=",
+      "Meta": null,
+      "Name": "Adamant - A Perk Overhaul-30191-5-2-1-1634496084.7z",
+      "Size": 92019,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Adamant - A Perk Overhaul",
+        "Author": "Simon Magus",
+        "Version": "5.2.1.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/30191/30191-1572896988-939425731.png",
+        "IsNSFW": false,
+        "Description": "Adamant is a complete overhaul of Skyrim’s perk trees designed to balance existing skills and add powerful new perks to the game.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 30191,
+        "FileID": 235424,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|30191|235424"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "L8jPcFRweDk=",
+      "Meta": null,
+      "Name": "Adamant - Shrines and Amulets-30191-5-0-2-1624936255.7z",
+      "Size": 2303,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Adamant - A Perk Overhaul",
+        "Author": "Simon Magus",
+        "Version": "5.0.2.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/30191/30191-1572896988-939425731.png",
+        "IsNSFW": false,
+        "Description": "Adamant is a complete overhaul of Skyrim’s perk trees designed to balance existing skills and add powerful new perks to the game.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 30191,
+        "FileID": 211646,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|30191|211646"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "UwUI+iVpCTg=",
+      "Meta": null,
+      "Name": "Aetherius - A Race Overhaul-26686-2-6-0-1634497622.7z",
+      "Size": 31484,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Aetherius - A Race Overhaul",
+        "Author": "Simon Magus",
+        "Version": "2.6.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/26686/26686-1583617133-1318935756.png",
+        "IsNSFW": false,
+        "Description": "Aetherius is a complete overhaul of Skyrim’s human, elf, and beast races designed to balance the game’s races and add powerful new gameplay options.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 26686,
+        "FileID": 235426,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|26686|235426"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "R7QXOz7jDdw=",
+      "Meta": null,
+      "Name": "All Thieves Guild Jobs Concurrently-14883-1-3.rar",
+      "Size": 13875,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "All Thieves Guild Jobs Concurrently",
+        "Author": "JAKJ",
+        "Version": "1.3.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/14883/14883-1516954486-2014668284.png",
+        "IsNSFW": false,
+        "Description": "Lets you take on all seven types of Thieves Guild jobs at once, instead of only one from Delvin and one from Vex at a time.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 14883,
+        "FileID": 44724,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|14883|44724"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "nClY11AINQ0=",
+      "Meta": null,
+      "Name": "Apothecary - An Alchemy Overhaul-52130-1-1-5-1631016254.7z",
+      "Size": 102478,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Apothecary - An Alchemy Overhaul",
+        "Author": "Simon Magus and DeltaRider",
+        "Version": "1.1.5.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/52130/52130-1625763145-1987350992.png",
+        "IsNSFW": false,
+        "Description": "Apothecary is a complete overhaul of Skyrim’s alchemy, food, and alcohol systems designed to balance existing options while adding powerful new effects to the game.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 52130,
+        "FileID": 226696,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|52130|226696"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "g3w+eQv4qOw=",
+      "Meta": null,
+      "Name": "Apothecary - Food and Drink Addon-52130-1-0-3-1631016294.7z",
+      "Size": 30804,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Apothecary - An Alchemy Overhaul",
+        "Author": "Simon Magus and DeltaRider",
+        "Version": "1.0.3.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/52130/52130-1625763145-1987350992.png",
+        "IsNSFW": false,
+        "Description": "Apothecary is a complete overhaul of Skyrim’s alchemy, food, and alcohol systems designed to balance existing options while adding powerful new effects to the game.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 52130,
+        "FileID": 226698,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|52130|226698"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "sHNY94dY0qw=",
+      "Meta": null,
+      "Name": "Apothecary Food and Drink Addon - USSEP Patch-52130-1-0-0-1626544569.7z",
+      "Size": 562,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Apothecary - An Alchemy Overhaul",
+        "Author": "Simon Magus and DeltaRider",
+        "Version": "1.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/52130/52130-1625763145-1987350992.png",
+        "IsNSFW": false,
+        "Description": "Apothecary is a complete overhaul of Skyrim’s alchemy, food, and alcohol systems designed to balance existing options while adding powerful new effects to the game.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 52130,
+        "FileID": 215112,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|52130|215112"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "1eF3bw/Cyhc=",
+      "Meta": null,
+      "Name": "Blade and Blunt - A Combat Overhaul-34549-1-3-1-1617910597.7z",
+      "Size": 12677,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Blade and Blunt - A Combat Overhaul",
+        "Author": "Simon Magus",
+        "Version": "1.3.1.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/34549/34549-1586478221-885699905.png",
+        "IsNSFW": false,
+        "Description": "Blade and Blunt is a complete overhaul of Skyrim’s combat designed to increase the game’s difficulty and encourage active resource management.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 34549,
+        "FileID": 196942,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|34549|196942"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "2iyo4LVSw0M=",
+      "Meta": null,
+      "Name": "Blended Roads-8834-1-7-1586448385.7z",
+      "Size": 56636479,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Blended Roads",
+        "Author": "T4GTR43UM3R",
+        "Version": "1.7.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/8834-0-1497812902.gif",
+        "IsNSFW": false,
+        "Description": "Roadstones are blended to the ground mesh instead of assigning a texture to an extra mesh.\n\nThis eliminates a lot of road uvw issues.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 8834,
+        "FileID": 133231,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|8834|133231"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "fYzWMee96XU=",
+      "Meta": null,
+      "Name": "Cathedral - Water-22962-3-7-1587122926.7z",
+      "Size": 8265905,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Cathedral -  Water Overhaul and Bug Fixes",
+        "Author": "The Community",
+        "Version": "3.7.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/22962/22962-1583823045-2125421554.png",
+        "IsNSFW": false,
+        "Description": "New and improved HD water textures in addition to a water-edge bug fix.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 22962,
+        "FileID": 134738,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|22962|134738"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "qYAqigqxodY=",
+      "Meta": null,
+      "Name": "Dawnguard Delayed - Level 30-2399-1-0.rar",
+      "Size": 321,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Dawnguard Delayed",
+        "Author": "grazman",
+        "Version": "1.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/2399-0-1478110055.jpg",
+        "IsNSFW": false,
+        "Description": "Delays the start of the Dawnguard questline.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 2399,
+        "FileID": 3247,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|2399|3247"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "97Zs7STBi04=",
+      "Meta": null,
+      "Name": "DBF Conflict Resolution FOMOD.7z",
+      "Size": 569720,
+      "State": {
+        "$type": "HttpDownloader, Wabbajack.Lib",
+        "Url": "https://github.com/VivaNewVegas/Dragonborns-Fate-Patch-Emporium/raw/a68d952306b49107e0ecfcc50062f85c8324110a/DBF%20Conflict%20Resolution%20FOMOD.7z",
+        "Headers": [],
+        "PrimaryKeyString": "HTTPDownloader+State|https://github.com/VivaNewVegas/Dragonborns-Fate-Patch-Emporium/raw/a68d952306b49107e0ecfcc50062f85c8324110a/DBF%20Conflict%20Resolution%20FOMOD.7z"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "I4n9/PbiSmI=",
+      "Meta": null,
+      "Name": "Disable Cinematic Kills-169-1-1.rar",
+      "Size": 341,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Disable Cinematic Kills",
+        "Author": "Sable17",
+        "Version": "1.1.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/169-0-1477494459.png",
+        "IsNSFW": false,
+        "Description": "Disables the cinematic kills (also known as &#34;kill cams&#34;) caused by killing blows.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 169,
+        "FileID": 3630,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|169|3630"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "841vopnUY1A=",
+      "Meta": null,
+      "Name": "Disarmless Draugrs-12631-0-1.7z",
+      "Size": 2247,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Disarmless",
+        "Author": "Anqayas",
+        "Version": "0.1.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/12631-0-1507000125.jpg",
+        "IsNSFW": false,
+        "Description": "Removes Disarm shout from either Draugrs only, or the entire game including mods.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 12631,
+        "FileID": 35287,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|12631|35287"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "cYARx5wJWo8=",
+      "Meta": null,
+      "Name": "Dragonborn Delayed - Horn of Jurgen Windcaller-8365-1-0.rar",
+      "Size": 1290,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Dragonborn Delayed",
+        "Author": "grazman",
+        "Version": "1.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/8365-0-1487433667.jpg",
+        "IsNSFW": false,
+        "Description": "Delays the start of the Dragonborn questline.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 8365,
+        "FileID": 20664,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|8365|20664"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "yNPKHICHSsc=",
+      "Meta": null,
+      "Name": "Economy Overhaul and Speechcraft Improvements 3.0 Fomod Installer-9542-3-0-1572287896.7z",
+      "Size": 3534987,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Economy Overhaul and Speechcraft Improvements",
+        "Author": "Skepmanmods",
+        "Version": "3.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/9542-0-1492944138.png",
+        "IsNSFW": false,
+        "Description": "If you ever played Skyrim, you probably know how useless the Speech skill is.\n\nThe economy in Skyrim is too easy. Money is almost never a concern for the player.\n\nThe goal of this mod is to overhaul the Speech skill by making the economy harder, the Speechcraft perks more interesting and merchants more unique and specialized.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 9542,
+        "FileID": 111706,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|9542|111706"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "L0bQ+fJ8yLE=",
+      "Meta": null,
+      "Name": "ELFX Fixes-25498-v5-6-1615945937.7z",
+      "Size": 1998207,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "ELFX Fixes",
+        "Author": "WiZkiD34",
+        "Version": "5.6.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/25498/25498-1608839603-946916990.png",
+        "IsNSFW": false,
+        "Description": "Enhanced Lights and FX is a superb mod but has minor defects. ELFX Fixes aims to correct these small annoying problems.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 25498,
+        "FileID": 191900,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|25498|191900"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "7vm2TsrpL0Q=",
+      "Meta": null,
+      "Name": "Enhanced Lights and FX-2424-3-06.7z",
+      "Size": 108306032,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Enhanced Lights and FX",
+        "Author": "anamorfus",
+        "Version": "f3.06",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/2424-0-1479939929.jpg",
+        "IsNSFW": false,
+        "Description": "Enhanced Lights and FX has the goal to create a more dramatic and realistic mood to the Skyrim lighting.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 2424,
+        "FileID": 35608,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|2424|35608"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "HnHxpMqYCFQ=",
+      "Meta": null,
+      "Name": "Immersive HUD - iHUD-12440-0-2b.rar",
+      "Size": 13131,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Immersive HUD - iHUD Special Edition",
+        "Author": "Gopher",
+        "Version": "0.2.0.0b",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/12440-0-1507932075.jpg",
+        "IsNSFW": false,
+        "Description": "HUD when you need it. HIDE when you don't.\r\n\n\r\n\nGet the best of both worlds. The usefulness of having a HUD with the immersion of having none.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 12440,
+        "FileID": 35481,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|12440|35481"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "0pCvgv3iZrE=",
+      "Meta": null,
+      "Name": "Manbeast - A Werewolf Overhaul-44746-1-2-0-1619026023.7z",
+      "Size": 11030,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Manbeast - A Werewolf Overhaul",
+        "Author": "Simon Magus and colinswrath",
+        "Version": "1.2.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/44746/44746-1611463256-105629958.png",
+        "IsNSFW": false,
+        "Description": "Manbeast is a complete overhaul of Skyrim’s Werewolf system designed to balance existing Werewolf mechanics and add powerful new lycanthropic abilities to the game.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 44746,
+        "FileID": 199448,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|44746|199448"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "qjmGUj/A/BY=",
+      "Meta": null,
+      "Name": "moreHUD Inventory Edition-18619-1-0-18-1597503354.7z",
+      "Size": 205717,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "moreHUD Inventory Edition",
+        "Author": "Ahzaab",
+        "Version": "1.0.18.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/18619/18619-1531625604-468083957.png",
+        "IsNSFW": false,
+        "Description": "This mod brings some features from moreHUD into the inventory menu.  From your inventory you can now see if enchantments are known by the player and other features.  Also increases the Item Card size for mods that have long effect descriptions",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 18619,
+        "FileID": 155748,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|18619|155748"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "9nxSzHLJIZw=",
+      "Meta": null,
+      "Name": "moreHUD SE Light Master-12688-4-0-0-5Beta-1612021456.7z",
+      "Size": 251212,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "moreHUD SE",
+        "Author": "Ahzaab",
+        "Version": "4.0.0.5Beta",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/51956-1-1394409451.png",
+        "IsNSFW": false,
+        "Description": "Adds more information to the HUD about the currently targeted object and enemies.  Such as ingredients, weapon effects, potions, read books, v/w, enemy level, etc",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 12688,
+        "FileID": 182883,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|12688|182883"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "QdROnHgEUkM=",
+      "Meta": null,
+      "Name": "Mundus - A Standing Stone Overhaul-33411-1-6-2-1629128778.7z",
+      "Size": 4655,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Mundus - A Standing Stone Overhaul",
+        "Author": "Simon Magus",
+        "Version": "1.6.2.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/33411/33411-1583615824-315240576.png",
+        "IsNSFW": false,
+        "Description": "Mundus is a complete overhaul of Skyrim’s Standing Stones designed to balance the game’s stone bonuses and add powerful new gameplay options.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 33411,
+        "FileID": 221640,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|33411|221640"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "gg5rol/SHWM=",
+      "Meta": null,
+      "Name": "Mysticism - A Magic Overhaul-27839-1-2-1-1629349404.7z",
+      "Size": 9551141,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Mysticism - A Magic Overhaul",
+        "Author": "Simon Magus",
+        "Version": "1.2.1.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/27839/27839-1564552769-1829074082.png",
+        "IsNSFW": false,
+        "Description": "Mysticism is an overhaul that fixes bugs in Vanilla spells, fills in gaps in the game's magic progression, and adds new spells from previous Elder Scrolls titles.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 27839,
+        "FileID": 222189,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|27839|222189"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "K/BSSSidBO4=",
+      "Meta": null,
+      "Name": "OWL Main File-49681-1-3-0-1627793813.7z",
+      "Size": 59576,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Open World Loot - Encounter Zone and Loot Overhaul",
+        "Author": "deletepch",
+        "Version": "1.3.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/49681/49681-1620582432-1427848545.png",
+        "IsNSFW": false,
+        "Description": "A Loot and Encounter Zone Overhaul that focus on open world experience and freedom. \n\nAlso enable easy integration for modded weapon or armor.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 49681,
+        "FileID": 218014,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|49681|218014"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "MALdDKnfLcI=",
+      "Meta": null,
+      "Name": "OWL Randomized Special Loot-49681-1-2-5-1621406024.7z",
+      "Size": 4911,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Open World Loot - Encounter Zone and Loot Overhaul",
+        "Author": "deletepch",
+        "Version": "1.2.5.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/49681/49681-1620582432-1427848545.png",
+        "IsNSFW": false,
+        "Description": "A Loot and Encounter Zone Overhaul that focus on open world experience and freedom. \n\nAlso enable easy integration for modded weapon or armor.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 49681,
+        "FileID": 204284,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|49681|204284"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "obxTcFKjsbo=",
+      "Meta": null,
+      "Name": "Patch - Scarcity-49681-1-2-6-1622883775.7z",
+      "Size": 1150,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Open World Loot - Encounter Zone and Loot Overhaul",
+        "Author": "deletepch",
+        "Version": "1.2.6.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/49681/49681-1620582432-1427848545.png",
+        "IsNSFW": false,
+        "Description": "A Loot and Encounter Zone Overhaul that focus on open world experience and freedom. \n\nAlso enable easy integration for modded weapon or armor.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 49681,
+        "FileID": 207395,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|49681|207395"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "V9Cz27JL5UM=",
+      "Meta": null,
+      "Name": "OWL - Vanilla Progression-51496-1-2-1624801530.7z",
+      "Size": 1671,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Open World Loot (OWL) - Vanilla Progression",
+        "Author": "deletepch - Qolore7",
+        "Version": "1.2.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/51496/51496-1624312666-1651803608.jpeg",
+        "IsNSFW": false,
+        "Description": "Changes Open World Loot's weapon tiers to match vanilla's Orcish - Dwarven - Elven progression. ESL-flagged ESP",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 51496,
+        "FileID": 211408,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|51496|211408"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "F7cMmwDmcAY=",
+      "Meta": null,
+      "Name": "OWL - Vanilla Progression - Randomized Special Loot-51496-1-0-1624312817.7z",
+      "Size": 758,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Open World Loot (OWL) - Vanilla Progression",
+        "Author": "deletepch - Qolore7",
+        "Version": "1.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/51496/51496-1624312666-1651803608.jpeg",
+        "IsNSFW": false,
+        "Description": "Changes Open World Loot's weapon tiers to match vanilla's Orcish - Dwarven - Elven progression. ESL-flagged ESP",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 51496,
+        "FileID": 210499,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|51496|210499"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "CxSHTtUBaNU=",
+      "Meta": null,
+      "Name": "Quest NPCs Run-21103-1-12-1623072158.7z",
+      "Size": 12300,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Quest NPCs Run",
+        "Author": "Dispensation",
+        "Version": "1.12.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/21103/21103-1541689947-450290365.png",
+        "IsNSFW": false,
+        "Description": "Makes slow walking quest NPCs run.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 21103,
+        "FileID": 207937,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|21103|207937"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "UChqwEK78W4=",
+      "Meta": null,
+      "Name": "QuestsAreInSkyrim_USSEP_1_2_reupload-18416-1-2-1567347964.zip",
+      "Size": 24447,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Quests Are In Skyrim",
+        "Author": "SarthesArai",
+        "Version": "1.2.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/18416/18416-1530884664-844084167.jpeg",
+        "IsNSFW": false,
+        "Description": "Makes radiant quest no longer send you to locations outside of the province of Skyrim.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 18416,
+        "FileID": 105157,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|18416|105157"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "RnoU88F0V34=",
+      "Meta": null,
+      "Name": "Realistic Voice with natural social behaviors - longer pause between sentences-1717-2-1.7z",
+      "Size": 1228,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Realistic Conversations",
+        "Author": "Gorgulla",
+        "Version": "2.1.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/1717-0-1477959508.jpg",
+        "IsNSFW": false,
+        "Description": "Every social logic in Skyrim for npcs is changed, they talk more often to each others. And will less likely greet to you from a distance, they will also greet less often too, making them to not act as much as robots. NPCs are also more clever and will know for example if they talked to a npc and will therefore talk to another or not talk at all. ",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 1717,
+        "FileID": 10350,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|1717|10350"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "OOY30bfUXDM=",
+      "Meta": null,
+      "Name": "Scarcity SE - Less Loot Mod-8647-1-1.7z",
+      "Size": 11938,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Scarcity SE - Less Loot Mod",
+        "Author": "Syclonix",
+        "Version": "1.1.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/8647-0-1488458462.jpg",
+        "IsNSFW": false,
+        "Description": "Scarcity - Less Loot Mod ported, fixed and improved for Skyrim Special Edition.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 8647,
+        "FileID": 21661,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|8647|21661"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "j1jVa73K03U=",
+      "Meta": null,
+      "Name": "Scion - A Vampire Overhaul-41639-1-2-2-1628789457.7z",
+      "Size": 33825,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Scion - A Vampire Overhaul",
+        "Author": "Simon Magus and rodvt",
+        "Version": "1.2.2.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/41639/41639-1603410651-1374248152.png",
+        "IsNSFW": false,
+        "Description": "Scion is a complete overhaul of Skyrim’s Vampire system designed to balance existing Vampire mechanics and add powerful new vampiric abilities to the game.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 41639,
+        "FileID": 220669,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|41639|220669"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "dF2yafV2Oks=",
+      "Meta": null,
+      "Name": "SkyUI_5_2_SE-12604-5-2SE.7z",
+      "Size": 2783417,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "SkyUI",
+        "Author": "SkyUI Team",
+        "Version": "5.2.0.0SE",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/12604-0-1506820354.png",
+        "IsNSFW": false,
+        "Description": "Elegant, PC-friendly interface mod with many advanced features.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 12604,
+        "FileID": 35407,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|12604|35407"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "Gg7Zpqrs4X8=",
+      "Meta": null,
+      "Name": "SunHelm Survival-39414-3-0-5-1633355746.7z",
+      "Size": 7857657,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "SunHelm Survival and needs",
+        "Author": "colinswrath",
+        "Version": "3.0.5.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/39414/39414-1597459604-1382851726.jpeg",
+        "IsNSFW": false,
+        "Description": "SunHelm is an all in one survival and needs mod. It includes many features such as Hunger, Thirst, Fatigue, and even hypothermia mechanics all while attempting to stay as streamlined as possible.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 39414,
+        "FileID": 232570,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|39414|232570"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "tvGbiQrZ5jk=",
+      "Meta": null,
+      "Name": "TavernAIFix-se-23107-1-1d-1592428108.7z",
+      "Size": 4744,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Tavern AI fix",
+        "Author": "Andrelo",
+        "Version": "1.1.0.0d",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/23107/23107-1549128522-663908075.jpeg",
+        "IsNSFW": false,
+        "Description": "Fixes couple of annoying things in tavern worker's behavior.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 23107,
+        "FileID": 146207,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|23107|146207"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "S7o+/ZKen3c=",
+      "Meta": null,
+      "Name": "Unofficial Skyrim Special Edition Patch-266-4-2-5b-1623727189.7z",
+      "Size": 157221268,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Unofficial Skyrim Special Edition Patch",
+        "Author": "Unofficial Patch Project Team",
+        "Version": "4.2.5.0b",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/266-0-1477512662.png",
+        "IsNSFW": false,
+        "Description": "A comprehensive bugfixing mod for The Elder Scrolls V: Skyrim - Special Edition. The goal of the Unofficial Skyrim Special Edition Patch (aka USSEP) is to eventually fix every bug with Skyrim Special Edition not officially resolved by the developers to the limits of the Creation Kit and community-developed tools, in one easy-to-install package.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 266,
+        "FileID": 209150,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|266|209150"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "XcredXrUuR8=",
+      "Meta": null,
+      "Name": "Wander - A Weather Mod-24439-3-1-1601211391.7z",
+      "Size": 1409349,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Wander  -  A Weather Mod",
+        "Author": "Wanderhall",
+        "Version": "3.1.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/24439/24439-1601032651-404078175.png",
+        "IsNSFW": false,
+        "Description": "Wander is a simple weather solution, enhancing and adding variation while preserving the colors and spirit of Vanilla. No scripts. Multiple versions available.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 24439,
+        "FileID": 162803,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|24439|162803"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "xkPTR8/G8HI=",
+      "Meta": null,
+      "Name": "SSEEdit 4_0_3-164-4-0-3-1575326827.7z",
+      "Size": 27375834,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "SSEEdit",
+        "Author": "ElminsterAU and the xEdit team",
+        "Version": "0.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/164/164-1544500149-1688528806.png",
+        "IsNSFW": false,
+        "Description": "SSEEdit is the Skyrim: Special Edition version of xEdit. xEdit is an advanced graphical module viewer/editor and conflict detector.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 164,
+        "FileID": 115017,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|164|115017"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "FllTwQ9F0Ok=",
+      "Meta": null,
+      "Name": "Better Dialogue Controls v1_2-1429-1-2.zip",
+      "Size": 24869,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Better Dialogue Controls",
+        "Author": "ecirbaf",
+        "Version": "1.2.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/27371-1-1354565572.jpg",
+        "IsNSFW": false,
+        "Description": "Ever pick the wrong item in a dialogue with a NPC? This mod aims to fix some annoyances with the way keyboard and mouse selection works in the dialogue interface.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 1429,
+        "FileID": 11022,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|1429|11022"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "c6U9XBGQWVo=",
+      "Meta": null,
+      "Name": "Better MessageBox Controls v1_2-1428-1-2.zip",
+      "Size": 17621,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Better MessageBox Controls",
+        "Author": "ecirbaf",
+        "Version": "1.2.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/28170-1-1355253978.jpg",
+        "IsNSFW": false,
+        "Description": "Navigate all message boxes with the Left/Right and Activate (E) keys. Also fixes the clickable area of buttons so they are easier to select with the mouse.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 1428,
+        "FileID": 11023,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|1428|11023"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "5ZWLVLadx5c=",
+      "Meta": null,
+      "Name": "Bounty Preview-33877-2-0-0-1585402339.zip",
+      "Size": 18694,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Bounty Preview",
+        "Author": "Parapets",
+        "Version": "2.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/33877/33877-1584898199-1473224872.jpeg",
+        "IsNSFW": false,
+        "Description": "Preview bounties before you take them and get the option to accept or decline them.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 33877,
+        "FileID": 130987,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|33877|130987"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "tzy59jN+Tuc=",
+      "Meta": null,
+      "Name": "Papyrus Extender SSE - 4.5.1-22854-4-5-1-1629475714.7z",
+      "Size": 485343,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "powerofthree's Papyrus Extender",
+        "Author": "powerofthree",
+        "Version": "4.5.1.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/22854/95017-1548256254-1238854123.png",
+        "IsNSFW": false,
+        "Description": "SKSE64 plugin that extends Papyrus script functionality, with over 275 new Papyrus functions, and 29 events.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 22854,
+        "FileID": 222457,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|22854|222457"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "c3A1SMUZMVA=",
+      "Meta": null,
+      "Name": "QuickLootRE-21085-2-8-6-1609752312.zip",
+      "Size": 317899,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Quick Loot RE",
+        "Author": "Ryan",
+        "Version": "2.8.6.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/21085/21085-1541663066-2058527066.png",
+        "IsNSFW": false,
+        "Description": "This mod adds a looting menu akin to the one present in FO4.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 21085,
+        "FileID": 177675,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|21085|177675"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "fBE17BIHk6U=",
+      "Meta": null,
+      "Name": "ReCleanedMenus-26680-1-1-1560728024.zip",
+      "Size": 66887,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "ReCleaned Menu",
+        "Author": "enzeinzen",
+        "Version": "1.1.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/26680/26680-1560723061-1989632434.jpeg",
+        "IsNSFW": false,
+        "Description": "This is a very simple mod that removes some unnecessary buttons from Skyrim's menus. Say goodbye to unintentionally clicking on the mod manager or the Creation Club.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 26680,
+        "FileID": 96286,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|26680|96286"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "trfeL96D+jQ=",
+      "Meta": null,
+      "Name": "Scrambled Bugs-43532-14-1633526767.7z",
+      "Size": 327367,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Scrambled Bugs",
+        "Author": "meh321 and KernalsEgg",
+        "Version": "14.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/43532/43532-1631663358-1008600046.jpeg",
+        "IsNSFW": false,
+        "Description": "A collection of engine bug fixes and patches.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 43532,
+        "FileID": 233010,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|43532|233010"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "bjJjk6LZ11M=",
+      "Meta": null,
+      "Name": "No Warpaint tweak-1651-1-2.7z",
+      "Size": 325,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "SKSE64 ini pre-download for lazy users",
+        "Author": "Sagittarius22",
+        "Version": "1.2.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/51038-1-1392205368.jpg",
+        "IsNSFW": false,
+        "Description": "Don't know what to add in your SKSE ini? \r\n\nHere's one. Does NOT include SKSE files but only the ini.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 1651,
+        "FileID": 33903,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|1651|33903"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "AF6u/CaCE/Q=",
+      "Meta": null,
+      "Name": "SkyUI SE - Flashing Savegames Fix-20406-1-0.zip",
+      "Size": 231895,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "SkyUI SE - Flashing Savegames Fix",
+        "Author": "SkyUI Team and ousnius",
+        "Version": "1.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/20406/20406-1538924499-1287521034.png",
+        "IsNSFW": false,
+        "Description": "Fixes the flashing savegame entries when trying to save or load a game in the in-game main menu (quest journal).",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 20406,
+        "FileID": 68447,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|20406|68447"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "ch+HsBAf2KA=",
+      "Meta": null,
+      "Name": "All in one-32444-2-1582543914.zip",
+      "Size": 2929619,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Address Library for SKSE Plugins",
+        "Author": "meh321",
+        "Version": "2.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/32444/32444-1581072939-1625378722.png",
+        "IsNSFW": false,
+        "Description": "Contains header file and a database to make SKSE DLL plugins version independent easily.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 32444,
+        "FileID": 125647,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|32444|125647"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "i+T+Y69gsf0=",
+      "Meta": null,
+      "Name": "DimmerFog-7397-2-1.zip",
+      "Size": 410505,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Dimmer Fog and More",
+        "Author": "PlayerTw0",
+        "Version": "2.1.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/7397-0-1484197365.jpg",
+        "IsNSFW": false,
+        "Description": "Reduces Fog Effect Transparency and Brightness with torches and other light sources",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 7397,
+        "FileID": 20517,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|7397|20517"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "+SBtsh+a7jM=",
+      "Meta": null,
+      "Name": "Encounter Zones Unlocked SE-19608-1-4-1583906933.zip",
+      "Size": 166435,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Encounter Zones Unlocked SE",
+        "Author": "underthesky and z65536",
+        "Version": "1.4.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/19608/19608-1535436486-85642305.jpeg",
+        "IsNSFW": false,
+        "Description": "Prevents Skyrim from freezing the level of Encounter Zones (like dungeons) when they are first visited.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 19608,
+        "FileID": 128125,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|19608|128125"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "cMZSd/i4Y4g=",
+      "Meta": null,
+      "Name": "Equip Enchantment Fix-42839-1-2-4-1620033941.zip",
+      "Size": 188567,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Equip Enchantment Fix",
+        "Author": "SlavicPotato",
+        "Version": "1.2.4.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/42839/42839-1606550112-1092714395.png",
+        "IsNSFW": false,
+        "Description": "Fixes engine bugs where item enchantments don't apply when equipped or stop working while the item is still equipped. SKSE64 plugin.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 42839,
+        "FileID": 201449,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|42839|201449"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "n5F/O4auU0s=",
+      "Meta": null,
+      "Name": "Horse Stamina HUD-47076-1-0-1-1616008141.zip",
+      "Size": 321355,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Horse Stamina HUD - Script-Free",
+        "Author": "Parapets",
+        "Version": "1.0.1.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/47076/47076-1615889600-1255922230.png",
+        "IsNSFW": false,
+        "Description": "Displays your horse's stamina in the HUD when riding a horse.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 47076,
+        "FileID": 192003,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|47076|192003"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "zWbj1lnAkZw=",
+      "Meta": null,
+      "Name": "NPC AI Process Pos Fix-SSE-V4.05d-40261-v4-05d-1631801145.7z",
+      "Size": 56882,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "NPC AI Process Position  Fix - SSE",
+        "Author": "Maxsu",
+        "Version": "f4.05d",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/40261/40261-1599834679-1191296208.png",
+        "IsNSFW": false,
+        "Description": "A DLL plugin that fixes the vanilla game engine bug that NPCs AI process positions could not be updated after you waiting/ sleeping/ fast travel.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 40261,
+        "FileID": 228723,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|40261|228723"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "dji3dAEltPQ=",
+      "Meta": null,
+      "Name": "powerofthree's Tweaks - 1.2-51073-1-2-1626933492.7z",
+      "Size": 233610,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "powerofthree's Tweaks",
+        "Author": "powerofthree",
+        "Version": "1.2.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/51073/51073-1623688700-1006153578.png",
+        "IsNSFW": false,
+        "Description": "Collection of engine bug fixes and tweaks. SKSE plugin.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 51073,
+        "FileID": 215915,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|51073|215915"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "fFSCBVmizww=",
+      "Meta": null,
+      "Name": "INI file-51073-1-2-1626933536.7z",
+      "Size": 1588,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "powerofthree's Tweaks",
+        "Author": "powerofthree",
+        "Version": "1.2.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/51073/51073-1623688700-1006153578.png",
+        "IsNSFW": false,
+        "Description": "Collection of engine bug fixes and tweaks. SKSE plugin.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 51073,
+        "FileID": 215916,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|51073|215916"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "eKO0WV/CnNA=",
+      "Meta": null,
+      "Name": "ScaleformTranslationPP-22603-1-4-1-1586306055.zip",
+      "Size": 386268,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Scaleform Translation Plus Plus",
+        "Author": "Ryan",
+        "Version": "1.4.1.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/22603/22603-1547441830-1626204838.png",
+        "IsNSFW": false,
+        "Description": "This plugin enables native translation nesting present within SkyUI, as well as English fallbacks",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 22603,
+        "FileID": 132968,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|22603|132968"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "1H6gPEwDVKM=",
+      "Meta": null,
+      "Name": "Scrambled Eggchantments-43532-1-1619468588.7z",
+      "Size": 222914,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Scrambled Bugs",
+        "Author": "meh321 and KernalsEgg",
+        "Version": "1.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/43532/43532-1631663358-1008600046.jpeg",
+        "IsNSFW": false,
+        "Description": "A collection of engine bug fixes and patches.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 43532,
+        "FileID": 200347,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|43532|200347"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "oFP3wOoBuJQ=",
+      "Meta": null,
+      "Name": "Simple Offence Suppression-41764-2-0-1613617200.7z",
+      "Size": 92942,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Simple Offence Suppression",
+        "Author": "powerofthree",
+        "Version": "2.0.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/41764/41764-1603758770-490429309.png",
+        "IsNSFW": false,
+        "Description": "SKSE plugin that prevents neutral NPCs from turning hostile when you accidentally hit them.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 41764,
+        "FileID": 186510,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|41764|186510"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "OUXFdt2Wb2E=",
+      "Meta": null,
+      "Name": "SSE Display Tweaks-34705-0-4-15-1-1623522047.zip",
+      "Size": 403372,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "SSE Display Tweaks",
+        "Author": "SlavicPotato",
+        "Version": "0.4.15.0-1",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/34705/34705-1586796582-2125322633.png",
+        "IsNSFW": false,
+        "Description": "All-in-one solution for smooth FPS-unlocked gameplay. Includes a physics fix, borderless fullscreen performance boost, refresh rate control, highly configurable frame rate limiting, various bugfixes and more.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 34705,
+        "FileID": 208797,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|34705|208797"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "6I/387a+Px4=",
+      "Meta": null,
+      "Name": "(Part 1) Engine Fixes-17230-5-6-0-1611442568.zip",
+      "Size": 417160,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "SSE Engine Fixes (skse64 plugin)",
+        "Author": "aers - Nukem - Ryan",
+        "Version": "5.6.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/17230/17230-1526195370-298143229.png",
+        "IsNSFW": false,
+        "Description": "skse64 plugin to fix various issues with the Skyrim Special Edition engine.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 17230,
+        "FileID": 181373,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|17230|181373"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "ao+9l8yXNU8=",
+      "Meta": null,
+      "Name": "Stay At System Page-19832-1-5-0-1583022131.zip",
+      "Size": 254209,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Stay At The System Page - Updated",
+        "Author": "Ryan - iammitochondrion",
+        "Version": "1.5.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/19832/19832-1536463323-1320428446.png",
+        "IsNSFW": false,
+        "Description": "Ensures the journal menu always opens at the system page tab.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 19832,
+        "FileID": 126538,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|19832|126538"
+      }
+    },
+    {
+      "$type": "Archive, Wabbajack.Lib",
+      "Hash": "GBnUP1bgSNA=",
+      "Meta": null,
+      "Name": "WhoseQuestIsItAnyway-23581-1-3-0-1583022223.zip",
+      "Size": 305871,
+      "State": {
+        "$type": "NexusDownloader, Wabbajack.Lib",
+        "Name": "Whose Quest Is It Anyway",
+        "Author": "Ryan",
+        "Version": "1.3.0.0",
+        "ImageURL": "https://staticdelivery.nexusmods.com/mods/1704/images/23581/23581-1550631592-340836315.png",
+        "IsNSFW": false,
+        "Description": "Swaps the \"Quest items cannot be removed...\" message for a more descriptive message informing you which quest the item belongs to.",
+        "GameName": "SkyrimSpecialEdition",
+        "ModID": 23581,
+        "FileID": 126539,
+        "PrimaryKeyString": "NexusDownloader+State|SkyrimSpecialEdition|23581|126539"
+      }
+    }
+  ],
+  "InlinedFiles": [
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "6ef588f8-489b-4315-b22d-5d41e530cf0d",
+      "Hash": "hGwfMvkWrkI=",
+      "Size": 49,
+      "To": "dump_running_process.bat"
+    },
+    {
+      "$type": "RemappedInlineFile, Wabbajack.Lib",
+      "SourceDataID": "e3616026-b5ed-4eab-8054-c66c43ef6b30",
+      "Hash": "zec66vZ/u+w=",
+      "Size": 14411,
+      "To": "ModOrganizer.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "6a1b0868-99d7-40ec-af3c-3b0ea03d9db8",
+      "Hash": "Hkl0REVOq3Y=",
+      "Size": 547,
+      "To": "mods\\.NET Script Framework\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "86c8ca12-b05b-45a2-af84-dce8da2cf66e",
+      "Hash": "ZydZzfq6/Bs=",
+      "Size": 541,
+      "To": "mods\\Adamant - A Perk Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "492ec52e-d0fb-43f1-8356-abb00df9497f",
+      "Hash": "XsyqIEziUKY=",
+      "Size": 545,
+      "To": "mods\\Adamant - Shrines and Amulets\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "a7260da9-f4eb-4b2d-afc5-cd0d47693293",
+      "Hash": "/O3iV+hNoaI=",
+      "Size": 11762,
+      "To": "mods\\Address Library for SKSE Plugins\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "e80852c2-03ae-4d38-975b-bd1baefb44cf",
+      "Hash": "9pViJCfI774=",
+      "Size": 543,
+      "To": "mods\\Aetherius - A Race Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "a28dacb7-0b39-4567-bb13-1691cf1c6a6c",
+      "Hash": "IZfL6f/H1ng=",
+      "Size": 538,
+      "To": "mods\\All Thieves Guild Jobs Concurrently - USSEP\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "8846d278-0006-4e6d-bc11-e4025fbc24ee",
+      "Hash": "2xjwwcLElCQ=",
+      "Size": 19965,
+      "To": "mods\\Apothecary - An Alchemy Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "eacfe9a7-b921-4288-976c-e9ced6b97564",
+      "Hash": "MsYyt9gsOSk=",
+      "Size": 19966,
+      "To": "mods\\Apothecary - Food and Drink Addon\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "58881908-28f5-4a98-ab12-207010e4571f",
+      "Hash": "OxeVtA7iv44=",
+      "Size": 19971,
+      "To": "mods\\Apothecary - Food and Drink Addon - USSEP Patch\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "b743b116-780c-4901-8d1b-12565fd6adde",
+      "Hash": "0wbh4o6vNsg=",
+      "Size": 8112,
+      "To": "mods\\Better Dialogue Controls\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "2d7e2d3f-094b-4a08-aa95-6d92b6333239",
+      "Hash": "/b9lhnxPhjc=",
+      "Size": 8766,
+      "To": "mods\\Better MessageBox Controls\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "c79c3301-cfa4-4c1b-a4bc-b4dc5632d58c",
+      "Hash": "avkp0bltla8=",
+      "Size": 551,
+      "To": "mods\\Blade and Blunt - A Combat Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "2d84d371-3bf6-4e51-ba3a-b91c6a23e4c7",
+      "Hash": "7MWYKFDW8vo=",
+      "Size": 580,
+      "To": "mods\\Blended Roads - REALly Blended Roads\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "e6954581-e1bb-49a8-bfdf-172aa14a8d6a",
+      "Hash": "8n4Yzo+a7C0=",
+      "Size": 531,
+      "To": "mods\\Bounty Preview\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "6d203278-adff-4936-ae8a-f98377fbe59a",
+      "Hash": "7NfdJqPKj38=",
+      "Size": 105,
+      "To": "mods\\Bug Fixes_separator\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "d73f7690-7413-4dca-a203-aeb8a489a1b7",
+      "Hash": "jmqS3xZK5Ig=",
+      "Size": 531,
+      "To": "mods\\Cathedral - Water Overhaul and Bug Fixes\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "0e8245ba-3528-4902-bb18-488e0280a82e",
+      "Hash": "KF6UDEwNWPg=",
+      "Size": 2388,
+      "To": "mods\\Dawnguard Delayed - Level 30\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "6acd395f-cb6e-4aff-8018-03d45c27fe02",
+      "Hash": "W9Xeoi9LiCE=",
+      "Size": 482,
+      "To": "mods\\DBF Conflict Resolution\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "e61b8fdb-726d-421b-af05-baa2c1a5c007",
+      "Hash": "cCg+bmCiDIw=",
+      "Size": 565,
+      "To": "mods\\Dimmer Fog\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "39c8b3ed-a5f7-4a15-a0e2-60209133015d",
+      "Hash": "lOxx/ZmkHDI=",
+      "Size": 519,
+      "To": "mods\\Disable Cinematic Kills\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "1193023b-d7e9-44a8-9fc7-c15e5fe4292f",
+      "Hash": "MvPRARUcQek=",
+      "Size": 1810,
+      "To": "mods\\Disarmless Draugrs\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "5650e947-ef15-469d-960f-4c8194e19b9a",
+      "Hash": "Lox8LZzfpsU=",
+      "Size": 2392,
+      "To": "mods\\Dragonborn Delayed - Horn of Jurgen Windcaller\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "447c11ac-9d0a-4d5a-8437-1bfefc187326",
+      "Hash": "1uLWDWsSidY=",
+      "Size": 632,
+      "To": "mods\\Economy Overhaul and Speechcraft Improvements\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "db062b21-1fd9-4aff-8940-819bdb2573b3",
+      "Hash": "jJH4RLU2ArA=",
+      "Size": 581,
+      "To": "mods\\ELFX Fixes\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "ed7b6246-1677-4fc7-8129-3160f4f15949",
+      "Hash": "FVoXPEQ9Csk=",
+      "Size": 542,
+      "To": "mods\\Encounter Zones Unlocked SE\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "30d31ad5-499c-4491-b60e-95068b8c4a1a",
+      "Hash": "205ACXhtI48=",
+      "Size": 574,
+      "To": "mods\\Enhanced Lights and FX - Enhancer\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "624a8c74-dd27-47dc-a6c4-19a574006379",
+      "Hash": "J1NRpepIZI4=",
+      "Size": 538,
+      "To": "mods\\Equip Enchantment Fix\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "32c0fb70-09a5-4350-8802-d4bea7cac68d",
+      "Hash": "7NfdJqPKj38=",
+      "Size": 105,
+      "To": "mods\\Final Steps_separator\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "96fd26dd-0490-4d93-a169-d3481ffaf70f",
+      "Hash": "7NfdJqPKj38=",
+      "Size": 105,
+      "To": "mods\\Gameplay_separator\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "04a2223a-ade3-420f-a0eb-b6d918b9306c",
+      "Hash": "64kmM1l079E=",
+      "Size": 534,
+      "To": "mods\\Horse Stamina HUD\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "c9e56f82-e0cc-47d3-a9ed-a97c59fe3209",
+      "Hash": "7NfdJqPKj38=",
+      "Size": 105,
+      "To": "mods\\HUD + UI_separator\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "b6ccd93f-f047-48f7-a8d8-a456ccc3e6cf",
+      "Hash": "qZ/psK/6O8g=",
+      "Size": 526,
+      "To": "mods\\Immersive HUD - iHUD Special Edition\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "82efda98-b662-48a8-b257-3afa9942d19a",
+      "Hash": "HoOExyi2U2I=",
+      "Size": 546,
+      "To": "mods\\Manbeast - A Werewolf Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "2b416206-c535-4bf0-b6c0-dd4948b35e2e",
+      "Hash": "iymUaI+2mnU=",
+      "Size": 544,
+      "To": "mods\\moreHUD Inventory Edition\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "896c0d53-634c-4352-b793-a62599d9de45",
+      "Hash": "rzT5L/6/4uo=",
+      "Size": 13121,
+      "To": "mods\\moreHUD SE - Light Master\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "a3237d9e-d936-4ba9-b1a7-0a3951a3d845",
+      "Hash": "nP3f4roLZvs=",
+      "Size": 550,
+      "To": "mods\\Mundus - A Standing Stone Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "acdd58ee-01b0-476f-bd26-73cea5928811",
+      "Hash": "lCxN1I32Zxw=",
+      "Size": 544,
+      "To": "mods\\Mysticism - A Magic Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "55ac60d1-e658-445d-b80d-b7e5e56511f8",
+      "Hash": "Rwa/GY1GHHk=",
+      "Size": 11655,
+      "To": "mods\\NPC AI Process Position Fix\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "49ee419e-524b-40fa-855a-df8d5f1a3e32",
+      "Hash": "hMyRgg0ChIE=",
+      "Size": 16784,
+      "To": "mods\\Open World Loot - Encounter Zone and Loot Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "2620656a-66f3-4d06-bd1f-0d4cf9444bd8",
+      "Hash": "wojqjKLjFU8=",
+      "Size": 16805,
+      "To": "mods\\Open World Loot - Randomized Special Loot\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "905dfbd6-7c9f-4d3d-b25d-929485ce8691",
+      "Hash": "oG87TrlcHBw=",
+      "Size": 16780,
+      "To": "mods\\Open World Loot - Scarcity Patch\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "25d2181f-5548-4e2a-81a5-6a90cb5c4121",
+      "Hash": "cVRi4DLIWRM=",
+      "Size": 1355,
+      "To": "mods\\Open World Loot - Vanilla Progression\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "9dc43fce-935a-4483-b32b-834b33c0f550",
+      "Hash": "gGm7Xf7NpBs=",
+      "Size": 1374,
+      "To": "mods\\Open World Loot - Vanilla Progression - Randomized Special Loot\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "6ad427dd-ac28-4ee3-9e8a-4203fd8e16fe",
+      "Hash": "bzAQTADXLD8=",
+      "Size": 544,
+      "To": "mods\\powerofthree's Papyrus Extender\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "fcf43190-4d7b-4b29-a38d-774022506c4d",
+      "Hash": "XK85zSHS/Vc=",
+      "Size": 8262,
+      "To": "mods\\powerofthree's Tweaks\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "91b8f997-bdf3-45f1-ae1e-241b30207535",
+      "Hash": "4aw12Gek/vs=",
+      "Size": 531,
+      "To": "mods\\Quest NPCs Run\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "da36fea7-7ab7-4de1-99b0-572e6b6a27f5",
+      "Hash": "/48cCE+TaAs=",
+      "Size": 551,
+      "To": "mods\\Quests Are In Skyrim - USSEP\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "16cb089f-9f88-4ebc-986b-5225b6f2bc96",
+      "Hash": "AHlNziUm4Jg=",
+      "Size": 528,
+      "To": "mods\\Quick Loot RE\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "691bdda4-5332-4c91-abe1-40da6d938e07",
+      "Hash": "kcc4M3eYrdQ=",
+      "Size": 577,
+      "To": "mods\\Realistic Conversations - longer pause between sentences\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "c7eb007c-b33f-4d96-9e45-de7ab86ffb1f",
+      "Hash": "MmuE6YSapWo=",
+      "Size": 528,
+      "To": "mods\\ReCleaned Menu\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "ac6f474f-796e-4449-9b1c-e3d215f171ed",
+      "Hash": "eEhgJJ3NiXc=",
+      "Size": 539,
+      "To": "mods\\Scaleform Translation Plus Plus\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "98d99bba-ee55-43f9-bf44-724165855479",
+      "Hash": "M68AIqlt6SU=",
+      "Size": 582,
+      "To": "mods\\Scarcity SE - Less Loot Mod\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "0e505c5b-169e-4495-9561-cdc91b02c7e7",
+      "Hash": "U/DSvH+YUng=",
+      "Size": 542,
+      "To": "mods\\Scion - A Vampire Overhaul\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "dbe741cd-0340-4b92-bb66-5d415f6a103d",
+      "Hash": "ZTqZ8aT6UT0=",
+      "Size": 17548,
+      "To": "mods\\Scrambled Bugs\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "7be92812-e80a-4712-8ce1-b7102e35c26f",
+      "Hash": "VENA32UBHQE=",
+      "Size": 17554,
+      "To": "mods\\Scrambled Bugs - Scrambled Eggchantments\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "9821d70f-152a-4f80-ae52-55d67b169bb3",
+      "Hash": "TlYdZ2qasmM=",
+      "Size": 540,
+      "To": "mods\\Simple Offence Suppression\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "b3ea340c-e882-45f5-af05-52209c161ca9",
+      "Hash": "bX0tW6u5Gp8=",
+      "Size": 2136,
+      "To": "mods\\SKSE64 INI - No Warpaint tweak\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "d95f935f-415f-47d0-abbd-6f95c3ce6472",
+      "Hash": "YRShJHytFFw=",
+      "Size": 822,
+      "To": "mods\\SkyUI\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "27729e7f-9185-4281-b67b-ef86e13f5b41",
+      "Hash": "nw7aTgBBsMY=",
+      "Size": 1371,
+      "To": "mods\\SkyUI SE - Flashing Savegames Fix\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "1d5271df-b44a-4038-a1fc-1ac4caef42a4",
+      "Hash": "KpNalnb+tqU=",
+      "Size": 544,
+      "To": "mods\\SSE Display Tweaks\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "9a961076-52a4-451f-9e2f-91298d5bc655",
+      "Hash": "zOciXdlY2/M=",
+      "Size": 538,
+      "To": "mods\\SSE Engine Fixes (skse64 plugin)\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "79f2c3f5-87b7-48f0-84a1-15359a86883c",
+      "Hash": "oKpix2NRqZ8=",
+      "Size": 536,
+      "To": "mods\\Stay At The System Page\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "8be07997-4131-48a4-9e04-d006aeb890d9",
+      "Hash": "OPIO7QAJUP0=",
+      "Size": 588,
+      "To": "mods\\SunHelm Survival And Needs\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "7e8d56ad-527d-4a3b-847d-b099856e6d01",
+      "Hash": "OEkcWxYY0kc=",
+      "Size": 2509,
+      "To": "mods\\Tavern AI fix\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "7c93823c-b5b0-4fb3-ae60-fb0a621c9c3e",
+      "Hash": "7NfdJqPKj38=",
+      "Size": 105,
+      "To": "mods\\Tweaks_separator\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "d22eb7fd-3e18-4b5d-82ef-c22ea023760c",
+      "Hash": "ijfmSqBMbGI=",
+      "Size": 552,
+      "To": "mods\\Unofficial Skyrim Special Edition Patch\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "5e49017f-c80f-4aff-ab33-44b0c513fffd",
+      "Hash": "7NfdJqPKj38=",
+      "Size": 105,
+      "To": "mods\\Utilities_separator\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "80e94684-2dcd-4e61-88c3-3773a89a6b4c",
+      "Hash": "7NfdJqPKj38=",
+      "Size": 105,
+      "To": "mods\\Visuals_separator\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "27665501-763d-4808-94b3-5bb4823f83c1",
+      "Hash": "HyE2LBvRRnA=",
+      "Size": 610,
+      "To": "mods\\Wander - Lite\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "e2185320-e0d5-4590-aad9-a192fdd8622f",
+      "Hash": "pb1rNWv448Y=",
+      "Size": 537,
+      "To": "mods\\Whose Quest Is It Anyway\\meta.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "fafd553f-081e-4dfb-b87e-e403d0b821e2",
+      "Hash": "ga5u9egD5QE=",
+      "Size": 787,
+      "To": "profiles\\A Dragonborn's Fate\\archives.txt"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "4ecfedca-4120-4ade-bed9-badea1f522c4",
+      "Hash": "zH3GSffbvsA=",
+      "Size": 36,
+      "To": "profiles\\A Dragonborn's Fate\\initweaks.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "e8a0c11b-ccb5-407b-9bbb-16e9748fd2a8",
+      "Hash": "D5OBeJQ8kFc=",
+      "Size": 1415,
+      "To": "profiles\\A Dragonborn's Fate\\loadorder.txt"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "1d2aa744-8f4f-4b76-ba69-7f8aa652e4ce",
+      "Hash": "CcflEOKPT3E=",
+      "Size": 59,
+      "To": "profiles\\A Dragonborn's Fate\\lockedorder.txt"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "2365aac6-3c1a-455a-ab25-ff3ecffb47a2",
+      "Hash": "6graM2xrv+c=",
+      "Size": 2285,
+      "To": "profiles\\A Dragonborn's Fate\\modlist.txt"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "f8531915-923c-4692-ac91-0dd8eb3dff8d",
+      "Hash": "rqHIsyJxoLg=",
+      "Size": 1392,
+      "To": "profiles\\A Dragonborn's Fate\\plugins.txt"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "35deb556-3929-4f6b-91e1-8f33ef2465cb",
+      "Hash": "PJSlt3GWPzA=",
+      "Size": 85,
+      "To": "profiles\\A Dragonborn's Fate\\settings.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "c4338dec-dc5c-4b0b-aeac-9d07aacf1283",
+      "Hash": "/iKzFLd3VYc=",
+      "Size": 1895,
+      "To": "profiles\\A Dragonborn's Fate\\skyrim.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "21eac3ca-c0e5-48b8-8fee-ae31a30fcc09",
+      "Hash": "menYUTfbRu8=",
+      "Size": 0,
+      "To": "profiles\\A Dragonborn's Fate\\skyrimcustom.ini"
+    },
+    {
+      "$type": "InlineFile, Wabbajack.Lib",
+      "SourceDataID": "8de68c1f-9158-4d66-bdcc-3cd4818f8848",
+      "Hash": "lvlR32LM7os=",
+      "Size": 3708,
+      "To": "profiles\\A Dragonborn's Fate\\skyrimprefs.ini"
+    }
+  ]
+}
